@@ -1,5 +1,6 @@
 # decodingpipe: a gene-level tRNA decoding strategy pipeline
 
+[![DOI](https://zenodo.org/badge/1168503890.svg)](https://doi.org/10.5281/zenodo.18802962)
 
 
 This repository contains a Python pipeline to quantify **codon decoding strategy shifts** across gene clusters.
