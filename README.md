@@ -1,6 +1,3 @@
-# decodepipe
-Python pipeline that infers decoding strategies &amp; tRNA modification dependences at the gene level, based on codon usage tables.
-
 # decodingpipe: a gene-level tRNA decoding strategy pipeline
 
 
@@ -38,7 +35,7 @@ Outputs are written to `outputs/` by default (selectable in the file dialog).
 
 ### Codon-tRNAs decoding table (Excel, “true-long” format)
 
-The pipeline expects a sheet containing at least the following columns (see example file):
+The pipeline expects a sheet containing at least the following columns:
 
 - `AA`
 - `Codon 5'-3'`

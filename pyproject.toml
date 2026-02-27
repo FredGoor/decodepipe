@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decodingpipe"
+version = "1.0.0"
+description = "Codon-cluster decoding strategy analysis pipeline"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "openpyxl",
+]
+
+[tool.setuptools]
+packages = ["decodingpipe"]
